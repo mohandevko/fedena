@@ -4,6 +4,7 @@ ar:
     attributes:
 
       student:
+        surname: "لقب"
         first_name: "الاسم الأول"
         admission_no: "قبول عدد"
         admission_date: "تاريخ القبول"
