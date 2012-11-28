@@ -74,6 +74,13 @@
       <hr class="sub-heading"></hr>
 
       <div class="label-field-pair">
+        <label for="student_grade"><%= t('surname') %>(Capital letters)<span class="necessary-field">*</span> </label>
+        <div class="text-input-bg" style="text-transform: capitalize;"><%= s.text_field :surname %></div>
+      </div>
+
+      <hr class="label-underline"></hr>
+
+      <div class="label-field-pair">
         <label for="student_grade"><%= t('first_name') %><span class="necessary-field">*</span> </label>
         <div class="text-input-bg"><%= s.text_field :first_name %></div>
       </div>

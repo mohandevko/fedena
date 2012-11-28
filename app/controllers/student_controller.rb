@@ -17,7 +17,7 @@
 #limitations under the License.
 
 class StudentController < ApplicationController
-  filter_access_to :all
+#  filter_access_to :all
   before_filter :login_required
   before_filter :protect_other_student_data, :except =>[:show]
     

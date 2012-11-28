@@ -45,6 +45,8 @@ ActionController::Routing::Routes.draw do |map|
     exam_group.resources :exams, :member => { :save_scores => :post }
   end
 
+  map.resources :adas
+
 #  map.resources :additional_exam_groups do |additional_exam_group|
 #    additional_exam_group.resources :additional_exams , :member => { :save_additional_scores => :post }
 #  end

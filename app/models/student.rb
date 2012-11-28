@@ -57,6 +57,8 @@ class Student < ActiveRecord::Base
   validates_presence_of :gender
   validates_format_of     :email, :with => /^[A-Z0-9._%-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i,   :allow_blank=>true,
     :message => "#{t('must_be_a_valid_email_address')}"
+  validates_format_of :surname, :with => /^[A-Z]*$/,:message => "Must be capitals only"
+
   validates_format_of     :admission_no, :with => /^[A-Z0-9_-]*$/i,
     :message => "#{t('must_contain_only_letters')}"
 
