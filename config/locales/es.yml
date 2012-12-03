@@ -383,7 +383,7 @@ es: # locale
   active: "Activo"
   inactive: "Inactivo"
   update: "Actualizar"
-  admin: "Admin"
+  studentsdetails: "STUDENTSDETAILS"
   employee_text: "Empleado"
   username: "Nombre de usuario"
   user_text: "Usuario"

@@ -110,6 +110,7 @@ p.flash-msg {
     border:0;
     padding:20px 0 0 15px;
     float:left;
+    height: 265px;
 }
 #content-header h1 {
     margin:0px;
@@ -118,7 +119,7 @@ p.flash-msg {
     display:block;
     font-size: 22px;
 }
-#content-header h3 {
+#content-header h2 {
     margin:0px;
     padding:0 0 0 100px;
     color:#b00;

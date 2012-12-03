@@ -536,6 +536,7 @@ en: # locale
   gender: "Gender"
   male: "Male"
   female: "Female"
+  studentsdetails: "STUDENT DETAILS"
   surname: "Surname"
   first_name: "First Name"
   middle_name: "Middle Name"

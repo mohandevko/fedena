@@ -1,4 +1,87 @@
 --- 
-cursor_positions: []
-
+cursor_positions: 
+  - :path: config/database.yml
+    :cursor_offset: 116
+    :timestamp: 2012-11-28 11:11:07 +05:30
+  - :path: config/environment.rb
+    :cursor_offset: 368
+    :timestamp: 2012-11-28 11:51:49 +05:30
+  - :path: config/boot.rb
+    :cursor_offset: 89
+    :timestamp: 2012-11-28 11:17:36 +05:30
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-11-28 11:40:08 +05:30
+  - :path: config/initializers/session_store.rb
+    :cursor_offset: 799
+    :timestamp: 2012-09-05 11:10:42 +05:30
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: Rakefile
+    :cursor_offset: 268
+    :timestamp: 2012-11-28 15:38:20 +05:30
+  - :path: config/locales/hi.yml
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: config/locales/ja.yml
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: config/locales/mr.yml
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: config/locales/es.yml
+    :cursor_offset: 9987
+    :timestamp: 2012-11-29 12:13:08 +05:30
+    :selection_offset: 9952
+    :block_selection_mode: false
+  - :path: config/locales/pt.yml
+    :cursor_offset: 9634
+    :timestamp: 2012-11-29 12:12:54 +05:30
+    :selection_offset: 9599
+    :block_selection_mode: false
+  - :path: config/locales/en.yml
+    :cursor_offset: 12721
+    :timestamp: 2012-11-29 12:16:09 +05:30
+  - :path: app/views/student/admission2.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: app/views/student/admission3.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: app/views/student/admission4.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: app/models/student_category.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: app/controllers/student_controller.rb
+    :cursor_offset: 3411
+    :timestamp: 2012-11-29 16:03:20 +05:30
+  - :path: app/views/student/student_admission_form.html.erb
+    :cursor_offset: 336
+    :timestamp: 2012-11-29 13:52:30 +05:30
+  - :path: Gemfile
+    :cursor_offset: 201
+    :timestamp: 2012-11-29 16:14:18 +05:30
+  - :path: app/views/student/admission1.html.erb
+    :cursor_offset: 735
+    :timestamp: 2012-12-03 13:11:53 +05:30
+  - :path: public/stylesheets/student/admission1.css
+    :cursor_offset: 205
+    :timestamp: 2012-12-03 13:00:02 +05:30
+  - :path: public/stylesheets/_styles/ui.all.css
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: public/stylesheets/_layouts/dashboard.css
+    :cursor_offset: 4305
+    :timestamp: 2012-12-03 14:05:00 +05:30
+  - :path: public/stylesheets/_layouts/forgotpw.css
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: public/stylesheets/_layouts/pdf.css
+    :cursor_offset: 0
+    :timestamp: 2012-09-05 11:10:42 +05:30
+  - :path: public/stylesheets/_layouts/style.css
+    :cursor_offset: 2069
+    :timestamp: 2012-12-03 14:01:32 +05:30
 files_to_retain: 0

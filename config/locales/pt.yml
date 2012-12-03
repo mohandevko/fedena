@@ -388,7 +388,7 @@ pt: # locale
   active: "Ativo"
   inactive: "Inativo"
   update: "Atualizar"
-  admin: "Admin"
+  studentsdetails: "STUDENTSDETAILS"
   employee_text: "Funcionario"
   username: "Nome do Usuário"
   user_text: "Usuário"
