@@ -17,6 +17,8 @@ ActionController::Routing::Routes.draw do |map|
   #  do |fa|
   #    fa.resources  :fa_criterias
   #  end
+  map.resources :preports, :collection=>{:nursery=>[:get],:primary=>[:get],:junior_secondary => [:get],:senior_secondary=>[:get]}
+  
   map.resources :fa_criterias do |fa|
     fa.resources :descriptive_indicators do |desc|
       desc.resources :assessment_tools

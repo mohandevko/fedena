@@ -1,9 +1,6 @@
 --- 
 open_files: 
-  - app/views/student/admission1.html.erb
   - public/stylesheets/student/admission1.css
-  - public/stylesheets/_styles/ui.all.css
-  - public/stylesheets/_layouts/dashboard.css
-  - public/stylesheets/_layouts/forgotpw.css
-  - public/stylesheets/_layouts/pdf.css
-  - public/stylesheets/_layouts/style.css
+  - app/views/student/admission1.html.erb
+  - public/stylesheets/application.css
+  - app/views/preports/nursery.html.erb

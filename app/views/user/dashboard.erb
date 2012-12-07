@@ -31,6 +31,10 @@
         :class => "option_buttons", :id => "admission_button", :title => "#{t('admission_link_title')}"%>
     </div>
     <div class="button-box">
+      <%= link_to "<div class ='button-label'><p>#{t('progress_report')}</p></div>", {:controller => "preports", :action => "index"},
+        :class => "option_buttons", :id => "admission_button", :title => "#{t('admission_link_title')}"%>
+    </div>
+    <div class="button-box">
       <%= link_to "<div class ='button-label'><p>#{t('student_details')}</p></div>", {:controller => "student", :action => "index"},
         :class => "option_buttons", :id => "student_details_button", :title => "#{t('student_link_title')}"%>
     </div>

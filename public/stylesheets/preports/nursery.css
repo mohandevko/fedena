@@ -1,0 +1,30 @@
+#form-body {
+  border: solid black 1px;
+  height: 600px;
+  width: 950px;
+  border: solid black 2px;
+}
+
+#block1 {
+  border: 1px solid black;
+  height: 200px;
+  margin-top: 156px;
+  width: 950px;
+}
+
+#table1 {
+  border: 1px solid black;
+  float: left;
+  position: relative;
+  top: 61px;
+}
+
+#attendance-text {
+ border: 1px solid black;
+  float: left;
+  height: 60px;
+  margin-left: 12px;
+  position: relative;
+  top: 3pc;;
+}
+

@@ -1,5 +1,6 @@
 #admission1_form {
     padding-left:50px;
+    border: solid black 1px;
 }
 #autofill-area .label-field-pair {
     margin:0 95px 10px 0;
@@ -9,7 +10,7 @@
 }
 .label_field_pair {
     width:600px;
-    height: 40px;
+    height: 52px;
     padding-top: 3px;
 }
 
@@ -20,9 +21,104 @@
 #admission1_form_vertical_block_right {
     padding-bottom: 20px;
 }
+
+#for-admission-page-office-records {
+  border: solid black 2px;
+  height: 50px;
+  border-right: 5px;
+  margin-top: 5px;
+}
+
+#student-details {
+  overflow: hidden;
+  padding: 3px;
+  float: left;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: #979797;
+}
+
+#parents-details {
+  border: solid black 1pz;
+  overflow: hidden;
+  padding: 3px;
+  float: left;
+  width: 500px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: #979797;
+}
+
+#date-form {
+  float: right;
+  height: 150px;
+  margin-right: 8px;
+  margin-top: 2px;
+  width: 395px;
+}
+
+
+#date-purchased {
+  float: right;
+  height: 10px;
+  margin-right: 167px;
+  margin-top: 8px;
+  width: 185px
+}
+
+#form-number {
+  float: right;
+  height: 93px;
+  margin-right: 8px;
+  margin-top: 2px;
+  width: 324px;
+}
+
+#upload-photo {
+  border: 1px solid black;
+  float: right;
+  height: 204px;
+  margin-right: -386px;
+  margin-top: 110px;
+  width: 237px;
+}
+
+.parents-details-field {
+  height: 70px;
+  width: 900px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.underline-parents-details-field-underline-left {
+  float: left;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.underline-parents-details-field-underline-right {
+  float: right; 
+  width: 300px;
+  margin-top: 40px;
+}
+
+#parents-details-field-label {
+  margin: 27px 337px -67px;
+}
+
 .label_field_pair1 {
     width:285px;
     float:left;
+    padding-top:40px;
+}
+.label_field_pair11 {
+    width:185px;
+    float:right;
     padding-top:40px;
 }
 .label_field_pair label {
@@ -50,12 +146,23 @@
     display:inline;
 }
 
+input[type="text"],
+input[type="password"],
+textarea,
+select
+{
+    outline: none;
+    border:none;
+    border-bottom:1px solid grey;
+}
+
+
 #name_field_block {
     clear:both;
     padding-bottom:20px;
 }
 #name_field_block .text-input-bg {
-    background : #eee;
+   
     float:left;
     border : 1px solid #c6c6c6;
     margin : 5px 0 0 10px;
@@ -65,11 +172,15 @@
     -webkit-border-radius:10px;
     padding-top: 3px;
 }
+
+
+
 #name_field_block label {
     font-weight:bold;
     display:block;
     margin-bottom:10px;
 }
+
 #name_field_block input {
     background:transparent;
     border:0;
@@ -77,6 +188,31 @@
     padding-left:10px;
     width:165px;
 }
+
+
+.date {
+  border: solid black 2px;
+  float: right;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.form {
+  border: solid black 2px;
+  float: right;
+  margin-right: 10px;
+  height: 50px;
+}
+
+
+.label-underline0{
+    background: black;
+    height: 1px;
+    width: 480px;
+    border: none;
+    margin-left: 10px;
+}
+
 .label_field_pair input[type="text"] {
     width:210px;height:28px;
     background:transparent;
@@ -179,8 +315,9 @@
 }
 .student_admission_date {
     float:left;
-    height:80px;
+    height:42px;
     width:450px;
+    margin-top: 3px;
 }
 .student_admission_date label {
     color:#444444;
@@ -220,6 +357,42 @@ input#student_image_file {
     height: 1px;
     border: none;
 }
+
+.label-underline-half{
+    background:  black;
+    height: 1px;
+    width: 325px;
+    margin-top: 30px;
+    border: none;
+}
+
+.label-left-half-underline{
+    background:  black;
+    height: 1px;
+    width: 515px;
+    float: left;
+    margin-top: 13px;
+    border: none;
+}
+
+.label-underline-full{
+    background:  black;
+    height: 1px;
+    width: 892px;
+    float: left;
+    margin-top: 13px;
+    border: none;
+}
+
+.label-full-underline{
+   background: none repeat scroll 0 0 black;
+   border: medium none;
+   height: 1px;
+   margin-left: 2px;
+   margin-top: 5px;
+   width: 893px;
+}
+
 .text-input-bg-admission input:focus{
     background: #fff;
     border: 1px solid #9e0f15;

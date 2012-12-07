@@ -1,0 +1,28 @@
+#form-body {
+  margin-top: 5px;
+  border: solid black 2px;
+  height:700px;
+}
+
+#progress-report-nursery1 {
+  border: solid black 1px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 45px;
+  height: 120px;
+  width: 600px;
+}
+
+#progress-report-nursery2 {
+  border: solid black 1px;
+  width: 150px;
+  display: inline;
+}
+
+#progress-report-nursery3 {
+  border: solid black 1px;
+  clear: both;
+  display: inline;
+}
+
+.clear { clear: both; }

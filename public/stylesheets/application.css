@@ -309,6 +309,7 @@ textarea,
 select
 {
     outline: none;
+    
 }
 
 /* Shifting footer to bottom of the page */
@@ -399,20 +400,25 @@ body > #content_wrapper {
 /* Form styling */
 
 .label-field-pair {
-    height : 40px;
-    width : 600px;
-    padding-top: 3px;
+    height : 52px;
+    width : 520px;
 }
+
+.label-field-pair-mohan {
+    height : 62px;
+    width : 900px;
+}
+
 .text-input-bg {
     background : transparent;
-    height : 28px;
+    height : 21px;
     width : 250px;
     float:left;
 }
 .label-field-pair label {
     color : #444;
     display : block;
-    font-size: 14px;
+    font-size: 11px;
     margin : 0 0 0px 0;
     float:left;
     width:200px;
