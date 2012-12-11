@@ -2,5 +2,3 @@
 open_files: 
   - app/views/student/admission1.html.erb
   - app/controllers/student_controller.rb
-  - app/models/student.rb
-  - app/models/guardian.rb

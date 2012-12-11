@@ -1,4 +1,4 @@
-1355144099
+1355224090
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/mock_model_spec.rb	describe "#as_new_record" do
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/stub_model_spec.rb	describe "#as_new_record" do
 #delete	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb	describe "#delete" do
@@ -1390,8 +1390,8 @@ Project	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/will_pagi
 RAILS_ENV	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/xss_terminate/test/setup_test.rb	RAILS_ENV =
 RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/environment.rb	RAILS_GEM_VERSION =
-RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/environment.rb	RAILS_GEM_VERSION =
+RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_HOME	/home/mohan/dine-media/fedena-v2.3-bundle-linux/script/load_worker_env.rb	RAILS_HOME =
 RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	RAILS_ROOT =
 RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	RAILS_ROOT =
@@ -1446,8 +1446,8 @@ Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	module Rails
-Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	  module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	module Rails
+Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	  module Rails
 Rails21	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/callback_compatability.rb	    module Rails21
 Rails3	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/callback_compatability.rb	    module Rails3
 RailsHelpers	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/rails_helpers.rb	  module RailsHelpers
@@ -6245,6 +6245,7 @@ validate	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/batch.rb	  d
 validate	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/configuration.rb	  def validate
 validate	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/event.rb	  def validate
 validate	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/student.rb	  def validate
+validate	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/guardian.rb	  def validate
 validate_attachment_content_type	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_content_type_matcher.rb	      def validate_attachment_content_type 
 validate_attachment_presence	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_presence_matcher.rb	      def validate_attachment_presence 
 validate_attachment_size	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_size_matcher.rb	      def validate_attachment_size 
