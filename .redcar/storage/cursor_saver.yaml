@@ -123,23 +123,9 @@ cursor_positions:
     :timestamp: 2012-12-06 13:08:56 +05:30
     :selection_offset: 13648
     :block_selection_mode: false
-  - :path: app/views/preports/nursery.html.erb
-    :cursor_offset: 99
-    :timestamp: 2012-12-07 15:17:58 +05:30
   - :path: public/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2012-12-07 15:20:11 +05:30
-  - :path: app/views/student/admission1.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-12-07 15:20:09 +05:30
-  - :path: public/stylesheets/student/admission1.css
-    :cursor_offset: 0
-    :timestamp: 2012-12-07 15:20:06 +05:30
-  - :path: app/controllers/student_controller.rb
-    :cursor_offset: 47891
-    :timestamp: 2012-12-07 15:26:21 +05:30
-    :selection_offset: 47906
-    :block_selection_mode: false
   - :path: config/routes.rb
     :cursor_offset: 1689
     :timestamp: 2012-12-04 14:50:49 +05:30
@@ -151,9 +137,6 @@ cursor_positions:
   - :path: app/views/student/academic_report.erb
     :cursor_offset: 162
     :timestamp: 2012-09-05 11:10:42 +05:30
-  - :path: config/environment.rb
-    :cursor_offset: 368
-    :timestamp: 2012-12-07 15:38:23 +05:30
   - :path: app/views/preports/_partial.hrml.erb
     :cursor_offset: 105
     :timestamp: 2012-12-07 15:45:29 +05:30
@@ -162,4 +145,41 @@ cursor_positions:
     :timestamp: 2012-12-07 16:05:37 +05:30
     :selection_offset: 141
     :block_selection_mode: false
+  - :path: public/stylesheets/student/admission1.css
+    :cursor_offset: 491
+    :timestamp: 2012-12-07 17:24:44 +05:30
+  - :path: public/stylesheets/preports/nursery.css
+    :cursor_offset: 361
+    :timestamp: 2012-12-07 16:41:12 +05:30
+  - :path: app/views/preports/_form.html.erb
+    :cursor_offset: 594
+    :timestamp: 2012-12-07 17:19:23 +05:30
+  - :path: app/views/preports/nursery.html.erb
+    :cursor_offset: 135
+    :timestamp: 2012-12-07 15:46:42 +05:30
+  - :path: db/migrate/20121210075946_add_columns_to_guardians.rb
+    :cursor_offset: 1479
+    :timestamp: 2012-12-10 16:04:30 +05:30
+    :selection_offset: 2724
+    :block_selection_mode: false
+  - :path: config/environment.rb
+    :cursor_offset: 369
+    :timestamp: 2012-12-10 13:52:15 +05:30
+  - :path: db/migrate/20121210103545_add_columns2_to_guardians.rb
+    :cursor_offset: 932
+    :timestamp: 2012-12-10 16:17:41 +05:30
+  - :path: app/views/student/admission1.html.erb
+    :cursor_offset: 5645
+    :timestamp: 2012-12-10 16:43:25 +05:30
+  - :path: app/controllers/student_controller.rb
+    :cursor_offset: 2318
+    :timestamp: 2012-12-10 17:23:49 +05:30
+    :selection_offset: 2615
+    :block_selection_mode: false
+  - :path: app/models/student.rb
+    :cursor_offset: 1581
+    :timestamp: 2012-12-08 07:45:45 +05:30
+  - :path: app/models/guardian.rb
+    :cursor_offset: 858
+    :timestamp: 2012-12-10 17:29:53 +05:30
 files_to_retain: 0

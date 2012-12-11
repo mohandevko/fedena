@@ -1,6 +1,6 @@
 --- 
 open_files: 
-  - public/stylesheets/student/admission1.css
   - app/views/student/admission1.html.erb
-  - public/stylesheets/application.css
-  - app/views/preports/nursery.html.erb
+  - app/controllers/student_controller.rb
+  - app/models/student.rb
+  - app/models/guardian.rb

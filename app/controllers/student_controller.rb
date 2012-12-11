@@ -41,6 +41,7 @@ class StudentController < ApplicationController
 
   def admission1
     @student = Student.new(params[:student])
+    @guardians = Guardian.new(params[:guardians])
     @selected_value = Configuration.default_country 
     @application_sms_enabled = SmsSetting.find_by_settings_key("ApplicationEnabled")
     @last_admitted_student = Student.find(:last)
@@ -51,14 +52,18 @@ class StudentController < ApplicationController
         @exist = Student.find_by_admission_no(params[:student][:admission_no])
         if @exist.nil?
           @status = @student.save
+          @guardians.save
         else
           @last_admitted_student = Student.find(:last)
           @student.admission_no = @last_admitted_student.admission_no.next
           @status = @student.save
+          @guardians.save
         end
       else
         @status = @student.save
+        @guardians.save
       end
+      
       if @status
         sms_setting = SmsSetting.new()
         if sms_setting.application_sms_active and @student.is_sms_enabled
@@ -72,7 +77,7 @@ class StudentController < ApplicationController
           end
         end
         flash[:notice] = "#{t('flash8')}"
-        redirect_to :controller => "student", :action => "admission2", :id => @student.id
+        redirect_to :controller => "user", :action => "dashboard", :id => current_user.id
       end
     end
   end

@@ -166,134 +166,129 @@
       </table>
       
       <br /><br />
+      
      
+    
       <div id="parents-details">
         <b style="color: white">PARENTS DETAILS</b>
       </div><br /><br /><br />
 
-      <table width="103%" cellspacing='12px'>
-        
-        <tr>
-          <td>
-            <b>Father/Male Details</b>
-          </td>
-          <td></td>
-          <td style="float:right;margin-right:46px">
-              <b>Mother/Female Details</b>
+      <% fields_for :guardians do |t|%>
+        <table width="103%" cellspacing='12px'>
+          
+          <tr>
+            <td>
+              <b>Father/Male Details</b>
             </td>
-        </tr>
-        
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Present height</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Other Names</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Title</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Home Address</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">City Of Residence</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">State</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Name Of Office</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Steet address of office</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">Present height</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">city</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">GSM Number</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-          <td style="margin-left:1px;">E-Mail Address</td>
-          <td>
-            <%= s.text_field :present_height  %>
-          </td>
-        </tr>
-           
-      </table>
+            <td></td>
+            <td style="float:right;margin-right:46px">
+                <b>Mother/Female Details</b>
+              </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_surname  %>
+            </td>
+            <td style="margin-left:1px;">Surname</td>
+            <td>
+              <%= t.text_field :female_guardian_surname  %>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_other_name  %>
+            </td>
+            <td style="margin-left:1px;">Other Names</td>
+            <td>
+              <%= t.text_field :female_guardian_other_name  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_title  %>
+            </td>
+            <td style="margin-left:1px;">Title</td>
+            <td>
+              <%= t.text_field :female_guardian_title  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_address  %>
+            </td>
+            <td style="margin-left:1px;">Home Address</td>
+            <td>
+              <%= t.text_field :female_guardian_address  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_city_of_residence  %>
+            </td>
+            <td style="margin-left:1px;">City Of Residence</td>
+            <td>
+              <%= t.text_field :female_guardian_city_of_residence  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_state  %>
+            </td>
+            <td style="margin-left:1px;">State</td>
+            <td>
+              <%= t.text_field :female_guardian_state  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_name_of_office  %>
+            </td>
+            <td style="margin-left:1px;">Name Of Office</td>
+            <td>
+              <%= t.text_field :female_guardian_name_of_office  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_street_address_of_office  %>
+            </td>
+            <td style="margin-left:1px;">Steet address of office</td>
+            <td>
+              <%= t.text_field :female_guardian_street_address_of_office  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_city  %>
+            </td>
+            <td style="margin-left:1px;">Present height</td>
+            <td>
+              <%= t.text_field :female_guardian_city  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_gsm_number  %>
+            </td>
+            <td style="margin-left:1px;">city</td>
+            <td>
+              <%= t.text_field :female_guardian_gsm_number  %>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= t.text_field :male_guardian_email  %>
+            </td>
+            <td style="margin-left:1px;">GSM Number</td>
+            <td>
+              <%= t.text_field :female_guardian_email  %>
+            </td>
+          </tr>
+                       
+        </table>
+      <% end %>
           
       <% if @application_sms_enabled.is_enabled == true %>
         <hr class="label-underline"></hr>
@@ -331,7 +326,7 @@
         </div>
       </div>
 
-    <%= submit_tag "", :value => "► #{t('save_and_proceed')}", :class => "submit_button" %>
+    <%= submit_tag :class => "submit_button" %>
     <% end %>
   </div>
 </div>

@@ -21,12 +21,12 @@ class Guardian < ActiveRecord::Base
   belongs_to :ward, :class_name => 'Student'
   belongs_to :user,:dependent=>:destroy, :autosave =>true
 
-  validates_presence_of :first_name, :relation
+  #validates_presence_of :first_name, :relation
   before_destroy :immediate_contact_nil
 
-  def validate
-    errors.add(:dob, "#{t('cant_be_a_future_date')}.") if self.dob > Date.today unless self.dob.nil?
-  end
+  #def validate
+    #errors.add(:dob, "#{t('cant_be_a_future_date')}.") if self.dob > Date.today unless self.dob.nil?
+  #end
 
   def is_immediate_contact?
     ward.immediate_contact_id == id

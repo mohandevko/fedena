@@ -1,0 +1,439 @@
+Script started on Monday 10 December 2012 01:28:56 PM IST
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rails c[Krails consolemysql -u rootscript/server[K[K[K[K[K[K[K[K[K[K[K[K[K   <% s.fields_for :guardians do |t|%>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           <div class="field">
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           <%= s.text_field :income  %>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           </div>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$         <% end %>[H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$         <% end %>[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K   <% s.fields_for :guardians do |t|%>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           <div class="field">
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           <%= s.text_field :income  %>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$           </div>
+bash: syntax error near unexpected token `newline'
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$         <% end %>[H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$         <% end %>[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript generate migration add_columns_to_guardians[1P[1@/
+      exists  db/migrate
+      create  db/migrate/20121210075946_add_columns_to_guardians.rb
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exex[Kc rake:db[K[K[K db:migrate
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+==  AddColumnsToGuardians: migrating ==========================================
+-- add_column(:students, :male_guardian_surname, :string)
+   -> 0.3807s
+-- add_column(:students, :male_guardian_other_name, :string)
+   -> 0.3570s
+-- add_column(:students, :male_guardian_title, :string)
+   -> 0.4256s
+-- add_column(:students, :male_guardian_address, :string)
+   -> 0.3682s
+-- add_column(:students, :male_guardian_city_of_residence, :string)
+   -> 0.3459s
+-- add_column(:students, :male_guardian_state, :string)
+   -> 0.3127s
+-- add_column(:students, :male_guardian_name_of_office, :string)
+   -> 0.3571s
+-- add_column(:students, :male_guardian_street_address_of_office, :string)
+   -> 0.3570s
+-- add_column(:students, :male_guardian_city, :string)
+   -> 0.3697s
+-- add_column(:students, :male_guardian_gsm_number, :integer)
+   -> 0.3570s
+-- add_column(:students, :male_guardian_email, :string)
+   -> 0.3571s
+-- add_column(:students, :female_guardian_surname, :string)
+   -> 0.3571s
+-- add_column(:students, :female_guardian_title, :string)
+   -> 0.3127s
+-- add_column(:students, :female_guardian_address, :string)
+   -> 0.3683s
+-- add_column(:students, :female_guardian_city_of_residence, :string)
+   -> 0.6587s
+-- add_column(:students, :female_guardian_state, :string)
+   -> 0.4348s
+-- add_column(:students, :female_guardian_name_of_office, :string)
+   -> 0.4239s
+-- add_column(:students, :female_guardian_street_address_of_office, :string)
+   -> 0.4348s
+-- add_column(:students, :female_guardian_city, :string)
+   -> 0.3909s
+-- add_column(:students, :female_guardian_gsm_number, :integer)
+   -> 0.3794s
+-- add_column(:students, :female_guardian_email, :string)
+   -> 0.4146s
+==  AddColumnsToGuardians: migrated (8.1670s) =================================
+
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rake db:migrate[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rake db:migrate:down VERSION=20090326173033[1@b[1@u[1@n[1@d[1@l[1@e[1@ [1@e[1@x[1@e[1@c[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P0090326173033[C[1P90326173033[1P90326173033[1P0326173033[1P326173033[1P26173033[1P6173033[1P173033[1P73033[1P3033[1P033[1P33[C[K[K20121210075946
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+==  AddColumnsToGuardians: reverting ==========================================
+-- remove_column(:students, :male_guardian_surname)
+   -> 0.4111s
+-- remove_column(:students, :male_guardian_other_name)
+   -> 0.4238s
+-- remove_column(:students, :male_guardian_title)
+   -> 0.4016s
+-- remove_column(:students, :male_guardian_address)
+   -> 0.3682s
+-- remove_column(:students, :male_guardian_city_of_residence)
+   -> 0.3796s
+-- remove_column(:students, :male_guardian_state)
+   -> 0.3239s
+-- remove_column(:students, :male_guardian_name_of_office)
+   -> 0.3699s
+-- remove_column(:students, :male_guardian_street_address_of_office)
+   -> 0.3683s
+-- remove_column(:students, :male_guardian_city)
+   -> 0.3907s
+-- remove_column(:students, :male_guardian_gsm_number)
+   -> 0.3683s
+-- remove_column(:students, :male_guardian_email)
+   -> 0.3791s
+-- remove_column(:students, :female_guardian_surname)
+   -> 0.3686s
+-- remove_column(:students, :female_guardian_other_name)
+rake aborted!
+Mysql::Error: Can't DROP 'female_guardian_other_name'; check that column/key exists: ALTER TABLE `students` DROP `female_guardian_other_name`
+
+(See full trace by running task with --trace)
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rake db:migrate:down VERSION=20121210075946
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+==  AddColumnsToGuardians: reverting ==========================================
+-- remove_column(:students, :male_guardian_surname)
+rake aborted!
+Mysql::Error: Can't DROP 'male_guardian_surname'; check that column/key exists: ALTER TABLE `students` DROP `male_guardian_surname`
+
+(See full trace by running task with --trace)
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rake db:migrate:down VERSION=20121210075946
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+==  AddColumnsToGuardians: reverting ==========================================
+-- remove_column(:students, :male_guardian_surname)
+rake aborted!
+Mysql::Error: Can't DROP 'male_guardian_surname'; check that column/key exists: ALTER TABLE `students` DROP `male_guardian_surname`
+
+(See full trace by running task with --trace)
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rake db:migrate:down VERSION=20121210075946[C[C[C[C[C[C[C[C[C[C[C[C[C[1P VERSION=20121210075946[1P VERSION=20121210075946[1P VERSION=20121210075946[1P VERSION=20121210075946u VERSION=20121210075946p VERSION=20121210075946
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rake db:migrate:up VERSION=20121210075946[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rails[K[K[K[K[Kscript/generate miga[Kration add_columns_to_guardians
+      exists  db/migrate
+Another migration is already named add_columns_to_guardians: db/migrate/20121210075946_add_columns_to_guardians.rb
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ script/generate migration add_columns_to_guardians2[K[C2_to_guardians
+      exists  db/migrate
+      create  db/migrate/20121210103545_add_columns2_to_guardians.rb
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ script/generate migration add_columns2_to_guardians[1P_to_guardians[23Pbundle exec rake db:migrate
+(in /home/mohan/dine-media/fedena-v2.3-bundle-linux)
+==  AddColumns2ToGuardians: migrating =========================================
+-- add_column(:guardians, :male_guardian_surname, :string)
+   -> 0.3920s
+-- add_column(:guardians, :male_guardian_other_name, :string)
+   -> 0.3682s
+-- add_column(:guardians, :male_guardian_title, :string)
+   -> 0.3252s
+-- add_column(:guardians, :male_guardian_address, :string)
+   -> 0.3460s
+-- add_column(:guardians, :male_guardian_city_of_residence, :string)
+   -> 0.3571s
+-- add_column(:guardians, :male_guardian_state, :string)
+   -> 0.3460s
+-- add_column(:guardians, :male_guardian_name_of_office, :string)
+   -> 0.3572s
+-- add_column(:guardians, :male_guardian_street_address_of_office, :string)
+   -> 0.3460s
+-- add_column(:guardians, :male_guardian_city, :string)
+   -> 0.3252s
+-- add_column(:guardians, :male_guardian_gsm_number, :integer)
+   -> 0.3460s
+-- add_column(:guardians, :male_guardian_email, :string)
+   -> 0.3460s
+-- add_column(:guardians, :female_guardian_surname, :string)
+   -> 0.4016s
+-- add_column(:guardians, :female_guardian_other_name, :string)
+   -> 0.3792s
+-- add_column(:guardians, :female_guardian_title, :string)
+   -> 0.4128s
+-- add_column(:guardians, :female_guardian_address, :string)
+   -> 0.4363s
+-- add_column(:guardians, :female_guardian_city_of_residence, :string)
+   -> 0.4025s
+-- add_column(:guardians, :female_guardian_state, :string)
+   -> 0.3571s
+-- add_column(:guardians, :female_guardian_name_of_office, :string)
+   -> 0.3573s
+-- add_column(:guardians, :female_guardian_street_address_of_office, :string)
+   -> 0.3684s
+-- add_column(:guardians, :female_guardian_city, :string)
+   -> 0.4036s
+-- add_column(:guardians, :female_guardian_gsm_number, :integer)
+   -> 0.3914s
+-- add_column(:guardians, :female_guardian_email, :string)
+   -> 0.4128s
+==  AddColumns2ToGuardians: migrated (8.1843s) ================================
+
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rails c
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+      [--edge]                   # Setup the application with Gemfile pointing to Rails repository
+      [--dev]                    # Setup the application with Gemfile pointing to your Rails checkout
+  -G, [--skip-git]               # Skip Git ignores and keeps
+  -d, [--database=DATABASE]      # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                 # Default: sqlite3
+  -b, [--builder=BUILDER]        # Path to a application builder (can be a filesystem path or URL)
+      [--old-style-hash]         # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+      [--skip-gemfile]           # Don't create a Gemfile
+  -O, [--skip-active-record]     # Skip Active Record files
+      [--skip-bundle]            # Don't run bundle install
+  -m, [--template=TEMPLATE]      # Path to an application template (can be a filesystem path or URL)
+  -T, [--skip-test-unit]         # Skip Test::Unit files
+  -r, [--ruby=PATH]              # Path to the Ruby binary of your choice
+                                 # Default: /usr/bin/ruby1.8
+  -S, [--skip-sprockets]         # Skip Sprockets files
+  -j, [--javascript=JAVASCRIPT]  # Preconfigure for selected JavaScript library
+                                 # Default: jquery
+  -J, [--skip-javascript]        # Skip JavaScript files
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Suppress status output
+
+Rails options:
+  -v, [--version]  # Show Rails version number and quit
+  -h, [--help]     # Show this help message and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rails console
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+      [--edge]                   # Setup the application with Gemfile pointing to Rails repository
+      [--dev]                    # Setup the application with Gemfile pointing to your Rails checkout
+  -G, [--skip-git]               # Skip Git ignores and keeps
+  -d, [--database=DATABASE]      # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                 # Default: sqlite3
+  -b, [--builder=BUILDER]        # Path to a application builder (can be a filesystem path or URL)
+      [--old-style-hash]         # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+      [--skip-gemfile]           # Don't create a Gemfile
+  -O, [--skip-active-record]     # Skip Active Record files
+      [--skip-bundle]            # Don't run bundle install
+  -m, [--template=TEMPLATE]      # Path to an application template (can be a filesystem path or URL)
+  -T, [--skip-test-unit]         # Skip Test::Unit files
+  -r, [--ruby=PATH]              # Path to the Ruby binary of your choice
+                                 # Default: /usr/bin/ruby1.8
+  -S, [--skip-sprockets]         # Skip Sprockets files
+  -j, [--javascript=JAVASCRIPT]  # Preconfigure for selected JavaScript library
+                                 # Default: jquery
+  -J, [--skip-javascript]        # Skip JavaScript files
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Suppress status output
+
+Rails options:
+  -v, [--version]  # Show Rails version number and quit
+  -h, [--help]     # Show this help message and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ bundle exec rails console
+      create  
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  config/locales
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  Rakefile
+      create  README
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  config/locales/en.yml
+      create  db/seeds.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_rails_defaults.rb
+      create  config/initializers/session_store.rb
+      create  config/environment.rb
+      create  config/boot.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/dbconsole
+      create  script/destroy
+      create  script/generate
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  script/performance/benchmarker
+      create  script/performance/profiler
+      create  test/test_helper.rb
+      create  test/performance/browsing_test.rb
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/index.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  public/images/rails.png
+      create  public/javascripts/prototype.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/application.js
+      create  doc/README_FOR_APP
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ rail[K[K[K[Krails c
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+      [--edge]                   # Setup the application with Gemfile pointing to Rails repository
+      [--dev]                    # Setup the application with Gemfile pointing to your Rails checkout
+  -G, [--skip-git]               # Skip Git ignores and keeps
+  -d, [--database=DATABASE]      # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                 # Default: sqlite3
+  -b, [--builder=BUILDER]        # Path to a application builder (can be a filesystem path or URL)
+      [--old-style-hash]         # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+      [--skip-gemfile]           # Don't create a Gemfile
+  -O, [--skip-active-record]     # Skip Active Record files
+      [--skip-bundle]            # Don't run bundle install
+  -m, [--template=TEMPLATE]      # Path to an application template (can be a filesystem path or URL)
+  -T, [--skip-test-unit]         # Skip Test::Unit files
+  -r, [--ruby=PATH]              # Path to the Ruby binary of your choice
+                                 # Default: /usr/bin/ruby1.8
+  -S, [--skip-sprockets]         # Skip Sprockets files
+  -j, [--javascript=JAVASCRIPT]  # Preconfigure for selected JavaScript library
+                                 # Default: jquery
+  -J, [--skip-javascript]        # Skip JavaScript files
+
+Rails options:
+  -v, [--version]  # Show Rails version number and quit
+  -h, [--help]     # Show this help message and quit
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Suppress status output
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ ruby script/console
+Loading development environment (Rails 2.3.5)
+>> User.all
+=> [#<User id: 1, username: "admin", first_name: "Admin", last_name: "User", email: "noreply@fedena.com", admin: true, student: false, employee: false, hashed_password: "ea3b873d5b46c574e28d5dbe26808a881a4c2228", salt: "9EgcB4MG", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-11-28 06:18:30", updated_at: "2012-11-28 06:23:09", parent: nil>, #<User id: 2, username: "User", first_name: "mohan", last_name: "", email: "mohandev_2000@yahoo.co.in", admin: true, student: false, employee: false, hashed_password: "d4a2fb9efe2c5e1952d71e47fbc77833f188857b", salt: "2GoAEGoX", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-11-28 09:50:17", updated_at: "2012-11-28 09:50:17", parent: nil>, #<User id: 3, username: "2222222", first_name: "fsadfasdf", last_name: "", email: "", admin: false, student: true, employee: false, hashed_password: "ae59df3c42a9e69c5fbe9f774863eee04e8d2d91", salt: "vrDJ0o7U", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-11-28 10:45:33", updated_at: "2012-11-28 10:45:33", parent: nil>, #<User id: 4, username: "p2222222", first_name: "fdsafffffff", last_name: "", email: "", admin: false, student: false, employee: false, hashed_password: "6bdfeef20f8fe93dd6c1129d30aaf632a21a9571", salt: "DDfuN552", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-11-28 10:46:04", updated_at: "2012-11-28 10:46:04", parent: true>, #<User id: 5, username: "2222223", first_name: "mohan", last_name: "", email: "", admin: false, student: true, employee: false, hashed_password: "09266186b1cf23b0e7b2e338c1273561a5680361", salt: "LWGPVJua", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-04 07:37:17", updated_at: "2012-12-04 07:37:17", parent: nil>, #<User id: 6, username: "p2222223", first_name: "fsfd", last_name: "", email: "", admin: false, student: false, employee: false, hashed_password: "108aa36bc823cbb2ea741c8a8065228ba9c2d332", salt: "iWAOjJJs", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-04 07:37:44", updated_at: "2012-12-04 07:37:44", parent: true>, #<User id: 7, username: "2222224", first_name: "dsfsd", last_name: "", email: "", admin: false, student: true, employee: false, hashed_password: "e58cfbdec719466710ea80b1c2e56b190f681ffb", salt: "qkIHra10", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-04 07:38:04", updated_at: "2012-12-04 07:38:04", parent: nil>, #<User id: 8, username: "2222225", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "2e2ed3b52d7df96c047bc1dc1c424bfcee652ac5", salt: "h2TP6Lkh", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:15:52", updated_at: "2012-12-08 02:15:52", parent: nil>, #<User id: 9, username: "2222226", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "90956a6b34c29804a1a5725e331555e3dbdbb127", salt: "3n7JrGoy", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:18:21", updated_at: "2012-12-08 02:18:21", parent: nil>, #<User id: 10, username: "2222227", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "631383404b7d0e799dc61a5e040e4d62831cc000", salt: "eVn6OSzW", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:19:16", updated_at: "2012-12-08 02:19:16", parent: nil>, #<User id: 11, username: "2222228", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "0f822d83acc85099f0e5ab7e8ba0aa125db4bb30", salt: "1w24YnUG", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:20:58", updated_at: "2012-12-08 02:20:58", parent: nil>, #<User id: 12, username: "2222229", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "15b726d54736afbec621d17587ed837376b3fa76", salt: "8Ly769aM", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:27:29", updated_at: "2012-12-08 02:27:29", parent: nil>, #<User id: 13, username: "2222230", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "f8d7d85b64bbf423548bdb1ab94626136a7f8515", salt: "r61Usj8q", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:27:57", updated_at: "2012-12-08 02:27:57", parent: nil>, #<User id: 14, username: "2222231", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "e1c8290710e54b966753817a534fa694d91f4d05", salt: "AN5lyVd8", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:28:30", updated_at: "2012-12-08 02:28:30", parent: nil>, #<User id: 15, username: "2222232", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "5c4ce32b87e151cff22651140028d8cd8bbdcdd2", salt: "Mst5vpSh", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-08 02:30:46", updated_at: "2012-12-08 02:30:46", parent: nil>, #<User id: 16, username: "2222233", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "91504ee85360e504fb8f7f30d20bf5d113a9812a", salt: "Q2vAsyBJ", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-10 07:34:45", updated_at: "2012-12-10 07:34:45", parent: nil>, #<User id: 17, username: "2222234", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "ab63cf0904e9dac082bdb4cf90893d2a2aafb653", salt: "2L4nd25J", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-10 07:55:57", updated_at: "2012-12-10 07:55:57", parent: nil>, #<User id: 18, username: "2222235", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "450eafe6bd3519f61e4ada02d28bc911c7e5127c", salt: "X3MmT0KL", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-10 10:49:21", updated_at: "2012-12-10 10:49:21", parent: nil>, #<User id: 19, username: "2222236", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "5b82ec2ca3f4d2b2c6bd0408bdb61af23ed3c14d", salt: "0gdssEAo", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-10 10:53:19", updated_at: "2012-12-10 10:53:19", parent: nil>]
+>> [H[2J>> User.last
+=> #<User id: 19, username: "2222236", first_name: nil, last_name: nil, email: "", admin: false, student: true, employee: false, hashed_password: "5b82ec2ca3f4d2b2c6bd0408bdb61af23ed3c14d", salt: "0gdssEAo", reset_password_code: nil, reset_password_code_until: nil, created_at: "2012-12-10 10:53:19", updated_at: "2012-12-10 10:53:19", parent: nil>
+>> [H[2J>> Guardians.last
+NameError: uninitialized constant Guardians
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+	from (irb):3
+>> [H[2J>> Guardians.last[1P.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Student.als[K[K[Klast
+=> #<Student id: 17, admission_no: "2222238", class_roll_no: nil, admission_date: "2012-12-10", first_name: nil, middle_name: "fdsaf", last_name: nil, batch_id: nil, date_of_birth: "2007-12-10", gender: nil, blood_group: nil, birth_place: nil, nationality_id: nil, language: nil, religion: "fsad", student_category_id: nil, address_line1: nil, address_line2: nil, city: nil, state: "fsda", pin_code: nil, country_id: 58, phone1: nil, phone2: nil, email: "", immediate_contact_id: nil, is_sms_enabled: true, photo_file_name: nil, photo_content_type: nil, photo_data: nil, status_description: nil, is_active: true, is_deleted: false, created_at: "2012-12-10 11:14:21", updated_at: "2012-12-10 11:14:21", has_paid_fees: false, photo_file_size: nil, user_id: 21, surname: "fdsaf", class_last_passed: "ffsadfsad", name_of_the_class_last_attended: "", street_address_of_the_school_last_attended: "fsadf", city_of_the_school_last_attended: "", state_of_the_school_last_attended: "fsadf", reason_for_transfering: "", day_of_boarding: nil, present_height: nil, present_weight: nil, class_to_which_attend: nil, day_or_boarding: "", female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Student.last
+=> #<Student id: 20, admission_no: "2222241", class_roll_no: nil, admission_date: "2012-12-10", first_name: nil, middle_name: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", last_name: nil, batch_id: nil, date_of_birth: "2007-12-10", gender: nil, blood_group: nil, birth_place: nil, nationality_id: nil, language: nil, religion: "", student_category_id: nil, address_line1: nil, address_line2: nil, city: nil, state: "", pin_code: nil, country_id: 76, phone1: nil, phone2: nil, email: "", immediate_contact_id: nil, is_sms_enabled: true, photo_file_name: nil, photo_content_type: nil, photo_data: nil, status_description: nil, is_active: true, is_deleted: false, created_at: "2012-12-10 11:18:00", updated_at: "2012-12-10 11:18:00", has_paid_fees: false, photo_file_size: nil, user_id: 24, surname: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", class_last_passed: "", name_of_the_class_last_attended: "", street_address_of_the_school_last_attended: "", city_of_the_school_last_attended: "", state_of_the_school_last_attended: "", reason_for_transfering: "", day_of_boarding: nil, present_height: nil, present_weight: nil, class_to_which_attend: nil, day_or_boarding: "", female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last[C[C[C[1PStudent.last
+=> #<Student id: 22, admission_no: "2222243", class_roll_no: nil, admission_date: "2012-12-10", first_name: nil, middle_name: "", last_name: nil, batch_id: nil, date_of_birth: "2007-12-10", gender: nil, blood_group: nil, birth_place: nil, nationality_id: nil, language: nil, religion: "", student_category_id: nil, address_line1: nil, address_line2: nil, city: nil, state: "", pin_code: nil, country_id: 76, phone1: nil, phone2: nil, email: "", immediate_contact_id: nil, is_sms_enabled: true, photo_file_name: nil, photo_content_type: nil, photo_data: nil, status_description: nil, is_active: true, is_deleted: false, created_at: "2012-12-10 11:27:21", updated_at: "2012-12-10 11:27:21", has_paid_fees: false, photo_file_size: nil, user_id: 26, surname: "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy", class_last_passed: "", name_of_the_class_last_attended: "", street_address_of_the_school_last_attended: "", city_of_the_school_last_attended: "", state_of_the_school_last_attended: "", reason_for_transfering: "", day_of_boarding: nil, present_height: nil, present_weight: nil, class_to_which_attend: nil, day_or_boarding: "", female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Student.last[C[C[CGuardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 2, ward_id: 2, first_name: "fsfd", last_name: "", relation: "fdsafsa", email: "", office_phone1: "", office_phone2: "", mobile_phone: "", office_address_line1: "", office_address_line2: "", city: "", state: "", country_id: 76, dob: nil, occupation: "", income: "", education: "", created_at: "2012-12-04 07:37:37", updated_at: "2012-12-04 07:37:44", user_id: 6, male_guardian_surname: nil, male_guardian_other_name: nil, male_guardian_title: nil, male_guardian_address: nil, male_guardian_city_of_residence: nil, male_guardian_state: nil, male_guardian_name_of_office: nil, male_guardian_street_address_of_office: nil, male_guardian_city: nil, male_guardian_gsm_number: nil, male_guardian_email: nil, female_guardian_surname: nil, female_guardian_other_name: nil, female_guardian_title: nil, female_guardian_address: nil, female_guardian_city_of_residence: nil, female_guardian_state: nil, female_guardian_name_of_office: nil, female_guardian_street_address_of_office: nil, female_guardian_city: nil, female_guardian_gsm_number: nil, female_guardian_email: nil>
+>> [H[2J>> Guardian.last
+=> #<Guardian id: 3, ward_id: nil, first_name: nil, last_name: nil, relation: nil, email: nil, office_phone1: nil, office_phone2: nil, mobile_phone: nil, office_address_line1: nil, office_address_line2: nil, city: nil, state: nil, country_id: nil, dob: nil, occupation: nil, income: nil, education: nil, created_at: "2012-12-10 11:57:06", updated_at: "2012-12-10 11:57:06", user_id: nil, male_guardian_surname: "gggggggggggggggg", male_guardian_other_name: "", male_guardian_title: "", male_guardian_address: "", male_guardian_city_of_residence: "", male_guardian_state: "", male_guardian_name_of_office: "", male_guardian_street_address_of_office: "", male_guardian_city: "", male_guardian_gsm_number: nil, male_guardian_email: "", female_guardian_surname: "ggggggggggggggggggggg", female_guardian_other_name: "", female_guardian_title: "", female_guardian_address: "", female_guardian_city_of_residence: "", female_guardian_state: "", female_guardian_name_of_office: "", female_guardian_street_address_of_office: "", female_guardian_city: "", female_guardian_gsm_number: nil, female_guardian_email: "">
+>> Guardian.last
+=> #<Guardian id: 3, ward_id: nil, first_name: nil, last_name: nil, relation: nil, email: nil, office_phone1: nil, office_phone2: nil, mobile_phone: nil, office_address_line1: nil, office_address_line2: nil, city: nil, state: nil, country_id: nil, dob: nil, occupation: nil, income: nil, education: nil, created_at: "2012-12-10 11:57:06", updated_at: "2012-12-10 11:57:06", user_id: nil, male_guardian_surname: "gggggggggggggggg", male_guardian_other_name: "", male_guardian_title: "", male_guardian_address: "", male_guardian_city_of_residence: "", male_guardian_state: "", male_guardian_name_of_office: "", male_guardian_street_address_of_office: "", male_guardian_city: "", male_guardian_gsm_number: nil, male_guardian_email: "", female_guardian_surname: "ggggggggggggggggggggg", female_guardian_other_name: "", female_guardian_title: "", female_guardian_address: "", female_guardian_city_of_residence: "", female_guardian_state: "", female_guardian_name_of_office: "", female_guardian_street_address_of_office: "", female_guardian_city: "", female_g
