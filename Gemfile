@@ -11,12 +11,6 @@ gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
 
-group :production do
-  gem 'test-unit', "2.3.1"
-  gem 'pg'
-end
-
-
-group :development, :test do
-  gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-end
+gem 'pg'
+gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+gem 'test-unit', "2.3.1"
