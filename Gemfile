@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 source :rubygems
+gem 'pg'
 
 gem 'rails','2.3.5'
 gem 'i18n','0.4.2'
@@ -11,10 +12,3 @@ gem 'rdoc'
 gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
-
-group :production do
-  gem 'pg'
-end
-group :development, :test do
-  gem 'sqlite3'
-end
