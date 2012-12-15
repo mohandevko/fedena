@@ -12,3 +12,4 @@ gem 'rdoc'
 gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
+gem 'sqlite3'
