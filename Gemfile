@@ -1,7 +1,5 @@
 source 'http://rubygems.org'
 source :rubygems
-gem 'pg'
-
 gem 'rails','2.3.5'
 gem 'i18n','0.4.2'
 gem 'declarative_authorization','0.5.1'
@@ -12,4 +10,5 @@ gem 'rdoc'
 gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
-gem 'sqlite3'
+
+gem 'pg'
