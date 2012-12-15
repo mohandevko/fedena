@@ -10,5 +10,5 @@ gem 'rdoc'
 gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
-
+gem 'test-unit'
 gem 'pg'
