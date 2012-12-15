@@ -1,0 +1,446 @@
+  <div id="report-container">
+      <% form_for :report, :url => "" do |f| %>
+      <div id="top-section">
+        <div id="logo-and-student-info">
+          <div id="logo">
+          </div>
+          
+          <div id="student-info">
+            <div>
+              <span class='student-info-heading'>Progress Report - <strong>JUNIOR SECONDARY</strong></span>
+              
+              <span class='student-info-class-input'>
+                <label>Class</label> <%= f.text_field :class_name, :class => "input-with-bottom-line-only class-input" %>
+              </span>
+              
+              <div class="clear-both"></div>
+            </div>
+            
+            <div style="margin-top: 20px;">
+              <label>Surname</label> <%= f.text_field :sur_name, :class => "input-with-bottom-line-only sur-name-input" %>
+              
+              <span style="float: right;">
+                <label>First Name</label> <%= f.text_field :first_name, :class => "input-with-bottom-line-only first-name-input" %>
+              </span>
+              
+              <div class="clear-both"></div>
+            </div>
+            
+            <div style="margin-top: 15px;">
+              <label>Session</label> <%= f.text_field :session, :class => "input-with-bottom-line-only session-input" %>
+              <label>Term</label> <%= f.text_field :term, :class => "input-with-bottom-line-only term-input" %>
+              
+              <span style="float: right;">
+                <label>Date</label> <%= f.text_field :date, :class => "input-with-bottom-line-only date-input" %>
+              </span>
+              
+              <div class="clear-both"></div>
+            </div>
+          </div>
+          
+          <div class="clear-both"></div>
+        </div>
+        
+        <div class="attendance-and-class-info">
+          <div class="attendance-info">
+            <div class='attendance-heading'>Attendance</div>
+            <table border='1'>
+              <tr>
+                <th width='180'>&nbsp;Frequencies</th> <th width='60'>&nbsp;(Days)</th>
+              </tr>
+              <tr>
+                <td>&nbsp;No. of Times School Open</td>
+                <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              </tr>
+              <tr>
+                <td>&nbsp;No. of Times Present</td>
+                <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              </tr>
+              <tr>
+                <td>&nbsp;No. of Times Absent</td>
+                <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="class-info">
+            <div>
+              <table border='1' style="float: left;">
+                <tr>
+                  <td width='130'>&nbsp;No. of Classmates</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;Classmates - Male</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;Classmates - Female</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+              </table>
+              
+              <table border='1' style="float: left; margin-left: 10px;">
+                <tr>
+                  <td>&nbsp;Weight</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;Height</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;Age</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+              </table>
+              
+              <div style="float: right; position: relative;">
+                <div style="font-size: 12px; display: inline-block; margin-top: 0px; position: absolute; top: -15px; width: 70px;">Class Median</div>
+                <table border='1'>
+                  <tr>
+                    <td width='70'><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                  </tr>
+                  <tr>
+                    <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                  </tr>
+                  <tr>
+                    <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                  </tr>
+                </table>
+              </div>
+              
+              <div class="clear-both"></div>
+            </div>
+            
+            <div style="margin-top: 20px;">
+              <table border='1' style='width: 100%;'>
+                <tr>
+                  <td>&nbsp;Class Lowest Final Score</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                  
+                  <td>&nbsp;Class Final Average</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;Class Highest Final Score</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                  
+                  <td>&nbsp;Student’s Position</td>
+                  <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+          <div class="clear-both"></div>
+        </div>
+      
+        <div class="clear-both"></div>
+      </div>
+      
+      <div id="middle-section">
+        <table border='1' style='width: 100%;'>
+          <tr>
+            <th rowspan='2'>Subjects</td>
+            <th>Test<br/>01</th>
+            <th>Test<br/>02</th>
+            <th>Test<br/>03</th>
+            <th>Exam</th>
+            <th>Total<br/>Term</th>
+            <th rowspan='2'>Class<br/>Average<br/>Mark</th>
+            <th rowspan='2'>Position</th>
+            <th rowspan='21'></th>
+            <th rowspan='2'>Teachers Remark</th>
+          </tr>
+          <tr>
+            <td align='center'>10</td>
+            <td align='center'>10</td>
+            <td align='center'>10</td>
+            <td align='center'>70</td>
+            <td align='center'>100</td>
+          </tr>
+          <% ["Mathematics", "Quantitative Reasoning", "Phonics", "Rhymes", "Colouring", "Drawing",
+              "Writing", "Vocabulary", "Verbal Reasoning", "Vocational Aptitude", "Social Studies/Habits",
+              "Bible Knowledge", "CRK/Moral Instruction", "Physical & Health Education", "Elementary Science",
+              "Computer Science", "Culture & Creative Arts", "French"].each do |subject| %>
+            <tr>
+              <td>&nbsp;&nbsp;<%= subject %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border small-width" %></td>
+              <td><%= f.text_field :sur_name, :class => "input-with-no-border medium-width" %></td>
+            </tr>
+          <% end %>
+          <tr>
+            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        
+        <div class="clear-both"></div>
+      </div>
+      
+      <div id="bottom-section">
+        <div style="float: left; width: 34%;">
+          <div>
+            <table border='1' style='width: 100%;'>
+              <tr>
+                <th width='105'>&nbsp;SKILLS</th>
+                <th>5</th><th>4</th><th>3</th><th>2</th><th>1</th>
+              </tr>
+              <% ["Handwriting", "Fluency", "Games", "Sports",
+                  "Handling of Tools", "Drawing", "Music"].each_with_index do |skill, i| %>
+                <tr>
+                  <td>&nbsp;<%= i+1 %>. <%= skill %></td>
+                  <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+              <% end %>
+              <tr>
+                <td>&nbsp;</td>
+                <td></td><td></td><td></td><td></td><td></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+        <div style="float: left; width: 33%;">
+          <div style="margin-left: 10px;">
+            <table border='1' style='width: 100%;'>
+              <tr>
+                <th width='105'>&nbsp;BEHAVIOUR</th>
+                <th>5</th><th>4</th><th>3</th><th>2</th><th>1</th>
+              </tr>
+              <% ["Punctuality", "Attendance", "Reliability", "Neatness",
+                  "Politeness", "Honesty", "To Teachers", "To Students"].each_with_index do |skill, i| %>
+                <tr>
+                  <td>&nbsp;<%= i+1 %>. <%= skill %></td>
+                  <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+        
+        <div style="float: right; width: 33%;">
+          <div style="margin-left: 10px;">
+            <table border='1' style='width: 100%;'>
+              <tr>
+                <th width='105'>&nbsp;BEHAVIOUR</th>
+                <th>5</th><th>4</th><th>3</th><th>2</th><th>1</th>
+              </tr>
+              <% ["Self Control", "Cooperation", "Responsibility", "Initiative",
+                  "Composure", "Perseverance", "Comportment", "Friendliness"].each_with_index do |skill, i| %>
+                <tr>
+                  <td>&nbsp;<%= i+9 %>. <%= skill %></td>
+                  <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+        
+        <div class="clear-both"></div>
+        
+        <div class="remarks" style="margin-top: 10px;">
+          <table border='0' style="width: 100%;">
+            <tr>
+              <td style='width: 100px; white-space: nowrap;'>Guidance Counselor's Remarks&nbsp;&nbsp;</td>
+              <td><%= f.text_field :term, :class => "input-with-bottom-line-only", :style=>"width: 100%;" %></td>
+            </tr>
+          </table>
+          <table border='0' style="width: 100%;">
+            <tr>
+              <td style='width: 100px; white-space: nowrap;'>House Master's Remarks&nbsp;&nbsp;</td>
+              <td><%= f.text_field :term, :class => "input-with-bottom-line-only", :style=>"width: 100%;" %></td>
+            </tr>
+          </table>
+          <table border='0' style="width: 100%;">
+            <tr>
+              <td style='width: 100px; white-space: nowrap;'>From Master's Remarks&nbsp;&nbsp;</td>
+              <td><%= f.text_field :term, :class => "input-with-bottom-line-only", :style=>"width: 100%;" %></td>
+            </tr>
+          </table>
+          <table border='0' style="width: 100%;">
+            <tr>
+              <td style='width: 100px; white-space: nowrap;'>Principal's Remarks&nbsp;&nbsp;</td>
+              <td><%= f.text_field :term, :class => "input-with-bottom-line-only", :style=>"width: 100%;" %></td>
+            </tr>
+          </table>
+        </div>
+        
+        
+        <div class="clear-both"></div>
+      </div>
+      <% end %>
+    </div>
+    
+<style>
+  body {
+  background-color: #CCCCCC;
+  margin: 0;
+  padding: 10px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+#report-container {
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 8px #555555;
+  margin: auto;
+  padding: 50px;
+  width: 700px;
+  font-family: 'times new roman';
+}
+
+#report-container label {
+  font-family: cursive;
+  font-size: 13px;
+}
+
+#report-container table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-color: #555555;
+}
+
+#top-section {
+}
+
+#middle-section {
+  margin-top: 10px;
+}
+
+#bottom-section {
+}
+
+#top-section #logo {
+  border: 2px solid #aaaaaa;
+  float: left;
+  height: 170px;
+  width: 140px;
+}
+
+#top-section #student-info {
+  border: 2px solid #555555;
+  width: 500px;
+  float: right;
+  padding: 10px;
+}
+
+#report-container .input-with-bottom-line-only {
+  border: none;
+  border-bottom: 1px solid #555555;
+}
+
+#report-container .input-with-no-border {
+  border: none;
+}
+
+.student-info-heading {
+  font-size: 25px;
+}
+
+.small-width {
+  width: 50px;
+}
+
+#middle-section .small-width {
+  width: 25px;
+}
+
+.medium-width {
+  width: 160px;
+}
+
+.class-input {
+  width: 70px;
+}
+
+.student-info-class-input {
+  float: right;
+  margin-top: 10px;
+}
+
+.sur-name-input {
+  width: 200px;
+}
+
+.first-name-input {
+  width: 150px;
+}
+
+.session-input {
+  width: 130px;
+}
+
+.term-input {
+  width: 130px;
+}
+
+.date-input {
+  width: 100px;
+}
+
+.attendance-and-class-info {
+  margin-top: 10px;
+}
+
+.attendance-info {
+  float: left;
+}
+
+.class-info {
+  float: right;
+  width: 380px;
+  margin-top: -30px;
+}
+
+.attendance-info .attendance-heading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.attendance-info table, .class-info table, #middle-section table {
+  font-family: cursive;
+}
+
+.class-info table {
+  font-size: 11px;
+}
+
+#middle-section table {
+  font-size: 12px;
+}
+
+.attendance-info table th {
+  background-color: #dddddd;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
+
+.attendance-info table td {
+  height: 10px;
+  font-size: 12px;
+}
+
+#bottom-section {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+</style>

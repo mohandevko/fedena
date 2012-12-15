@@ -11,4 +11,4 @@ gem 'rush','0.6.8'
 gem 'rdoc'
 gem 'remotipart', '~> 1.0'
 
-
+gem 'wkhtmltopdf-binary'

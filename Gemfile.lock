@@ -34,6 +34,7 @@ GEM
       session
     session (3.1.0)
       fattr
+    wkhtmltopdf-binary (0.9.5.3)
 
 PLATFORMS
   ruby
@@ -48,3 +49,4 @@ DEPENDENCIES
   rdoc
   remotipart (~> 1.0)
   rush (= 0.6.8)
+  wkhtmltopdf-binary

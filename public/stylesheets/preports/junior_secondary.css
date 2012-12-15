@@ -1,0 +1,155 @@
+body {
+  background-color: #CCCCCC;
+  margin: 0;
+  padding: 10px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+#report-container {
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 8px #555555;
+  margin: auto;
+  padding: 50px;
+  width: 700px;
+  font-family: 'times new roman';
+}
+
+#report-container label {
+  font-family: cursive;
+  font-size: 13px;
+}
+
+#report-container table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-color: #555555;
+}
+
+#top-section {
+}
+
+#middle-section {
+  margin-top: 10px;
+}
+
+#bottom-section {
+}
+
+#top-section #logo {
+  border: 2px solid #aaaaaa;
+  float: left;
+  height: 170px;
+  width: 140px;
+}
+
+#top-section #student-info {
+  border: 2px solid #555555;
+  width: 500px;
+  float: right;
+  padding: 10px;
+}
+
+#report-container .input-with-bottom-line-only {
+  border: none;
+  border-bottom: 1px solid #555555;
+}
+
+#report-container .input-with-no-border {
+  border: none;
+}
+
+.student-info-heading {
+  font-size: 25px;
+}
+
+.small-width {
+  width: 50px;
+}
+
+#middle-section .small-width {
+  width: 25px;
+}
+
+.medium-width {
+  width: 160px;
+}
+
+.class-input {
+  width: 70px;
+}
+
+.student-info-class-input {
+  float: right;
+  margin-top: 10px;
+}
+
+.sur-name-input {
+  width: 200px;
+}
+
+.first-name-input {
+  width: 150px;
+}
+
+.session-input {
+  width: 130px;
+}
+
+.term-input {
+  width: 130px;
+}
+
+.date-input {
+  width: 100px;
+}
+
+.attendance-and-class-info {
+  margin-top: 10px;
+}
+
+.attendance-info {
+  float: left;
+}
+
+.class-info {
+  float: right;
+  width: 380px;
+  margin-top: -30px;
+}
+
+.attendance-info .attendance-heading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.attendance-info table, .class-info table, #middle-section table {
+  font-family: cursive;
+}
+
+.class-info table {
+  font-size: 11px;
+}
+
+#middle-section table {
+  font-size: 12px;
+}
+
+.attendance-info table th {
+  background-color: #dddddd;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+}
+
+.attendance-info table td {
+  height: 10px;
+  font-size: 12px;
+}
+
+#bottom-section {
+  margin-top: 10px;
+  font-size: 12px;
+}

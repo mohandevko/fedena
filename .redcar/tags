@@ -1,4 +1,4 @@
-1355224090
+1355486090
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/mock_model_spec.rb	describe "#as_new_record" do
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/stub_model_spec.rb	describe "#as_new_record" do
 #delete	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb	describe "#delete" do
@@ -1738,6 +1738,7 @@ TestResponse	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspe
 TestResponseOrString	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/lib/spec/rails/matchers/assert_select.rb	        module TestResponseOrString
 TestUnitTesting	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/interop/testcase_spec.rb	  class TestUnitTesting 
 Thing	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/resources/models/thing.rb	class Thing 
+ThingsController	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/initializers/mime_types.rb	class ThingsController 
 Thumbnail	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/thumbnail.rb	  class Thumbnail 
 ThumbnailTest	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/test/thumbnail_test.rb	class ThumbnailTest 
 TimeZone	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/time_zone.rb	class TimeZone 
@@ -3305,6 +3306,7 @@ generate_cce_reports	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/
 generate_file_name	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/generators/paperclip/paperclip_generator.rb	  def generate_file_name
 generate_fingerprint	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/attachment.rb	    def generate_fingerprint(source)
 generate_migration	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb	  def generate_migration
+generate_pdf	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def generate_pdf
 generate_previous_batch_reports	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/batch.rb	  def generate_previous_batch_reports
 generate_previous_reports	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/exam_controller.rb	  def generate_previous_reports
 generate_reports	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/exam_controller.rb	  def generate_reports
@@ -4139,6 +4141,7 @@ normal_enabled?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/batch
 normalize_scope_name	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/search/method_missing.rb	        def normalize_scope_name(scope_name)
 not include the image option in the result input tag	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/timcharper-calendar_date_select/spec/calendar_date_select/form_helpers_spec.rb	it "not include the image option in the result input tag" do
 nursery	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def nursery
+nursery_pdf	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def nursery_pdf
 observation_groups	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/assessment_scores_controller.rb	  def observation_groups
 observation_score_for	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/student.rb	  def observation_score_for(indicator_id,batch_id)
 observation_scores	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/assessment_scores_controller.rb	  def observation_scores
@@ -4353,6 +4356,7 @@ previous_years_marks_overview	/home/mohan/dine-media/fedena-v2.3-bundle-linux/ap
 previous_years_marks_overview_pdf	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/exam_controller.rb	  def previous_years_marks_overview_pdf
 primary	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def primary
 primary_condition	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/named_scopes/column_conditions.rb	        def primary_condition(alias_condition)
+primary_pdf	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def primary_pdf
 printForHtml	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/fckeditor/public/javascripts/fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js	function printForHtml( n )
 printForHtml	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js	function printForHtml( n )
 print_checker_results	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/fckeditor/public/javascripts/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php	function print_checker_results(
@@ -4769,6 +4773,7 @@ searchlogic	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searc
 searchlogic_lambda	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/core_ext/object.rb	      def searchlogic_lambda(type = :string, options = {}, &block)
 searchlogic_options	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/core_ext/proc.rb	          def searchlogic_options
 searchlogic_options	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/core_ext/proc.rb	          attr_accessor :searchlogic_options
+secondary_pdf	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/preports_controller.rb	  def secondary_pdf
 select	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/plugins/paste/editor_plugin_src.js	function select(n)
 selectByValue	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/utils/form_utils.js	function selectByValue(form_obj, field_name, value, add_custom, ignore_case)
 selectByValue	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js	function selectByValue(form_obj, field_name, value, add_custom, ignore_case)
@@ -5507,6 +5512,7 @@ show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/subjects_co
 show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/class_timings_controller.rb	  def show
 show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/batch_transfers_controller.rb	  def show
 show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/student_controller.rb	  def show
+show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/initializers/mime_types.rb	  def show
 show me the page	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/features/step_definitions/web_steps.rb	Then /^show me the page$/ do
 show me the page	/home/mohan/dine-media/fedena-v2.3-bundle-linux/features/step_definitions/web_steps.rb	Then /^show me the page$/ do
 showColor	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/themes/advanced/js/color_picker.js	function showColor(color, name)
