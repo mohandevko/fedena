@@ -34,7 +34,6 @@ GEM
       session
     session (3.1.0)
       fattr
-    sqlite3-ruby (1.2.5)
     test-unit (2.3.1)
     wkhtmltopdf-binary (0.9.5.3)
 
@@ -51,6 +50,5 @@ DEPENDENCIES
   rdoc
   remotipart (~> 1.0)
   rush (= 0.6.8)
-  sqlite3-ruby (= 1.2.5)
   test-unit (= 2.3.1)
   wkhtmltopdf-binary
