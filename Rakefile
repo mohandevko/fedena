@@ -7,3 +7,6 @@ require 'rake/testtask'
 require 'rdoc/task'
 
 require 'tasks/rails'
+
+require 'test-unit', "2.3.1"
+
