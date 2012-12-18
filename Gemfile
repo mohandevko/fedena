@@ -12,4 +12,4 @@ gem 'remotipart', '~> 1.0'
 gem 'wkhtmltopdf-binary'
 
 gem 'pg'
-gem 'test-unit', "2.3.1"
+#gem 'test-unit', "2.3.1"
