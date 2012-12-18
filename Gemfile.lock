@@ -34,6 +34,7 @@ GEM
       session
     session (3.1.0)
       fattr
+    test-unit (2.3.1)
     wkhtmltopdf-binary (0.9.5.3)
 
 PLATFORMS
@@ -49,4 +50,5 @@ DEPENDENCIES
   rdoc
   remotipart (~> 1.0)
   rush (= 0.6.8)
+  test-unit (= 2.3.1)
   wkhtmltopdf-binary
