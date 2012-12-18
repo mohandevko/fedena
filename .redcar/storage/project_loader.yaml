@@ -1,3 +1,8 @@
 --- 
 open_files: 
   - app/views/preports/primary.html.erb
+  - config/environment.rb
+  - config/database.yml
+  - Gemfile
+  - Gemfile.lock
+  - config/boot.rb
