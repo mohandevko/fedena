@@ -209,6 +209,15 @@ cursor_positions:
     :timestamp: 2012-12-14 16:55:08 +05:30
     :selection_offset: 0
     :block_selection_mode: false
+  - :path: config/boot.rb
+    :cursor_offset: 2711
+    :timestamp: 2012-12-19 10:34:50 +05:30
+  - :path: server
+    :cursor_offset: 60
+    :timestamp: 2012-12-18 14:51:02 +05:30
+  - :path: Rakefile
+    :cursor_offset: 306
+    :timestamp: 2012-12-18 15:43:12 +05:30
   - :path: app/views/preports/primary.html.erb
     :cursor_offset: 10570
     :timestamp: 2012-12-14 17:22:39 +05:30
@@ -219,18 +228,9 @@ cursor_positions:
     :cursor_offset: 0
     :timestamp: 2012-11-28 13:17:46 +05:30
   - :path: Gemfile
-    :cursor_offset: 270
-    :timestamp: 2012-12-18 15:42:52 +05:30
+    :cursor_offset: 189
+    :timestamp: 2012-12-19 11:06:09 +05:30
   - :path: Gemfile.lock
-    :cursor_offset: 0
-    :timestamp: 2012-12-18 14:58:31 +05:30
-  - :path: config/boot.rb
-    :cursor_offset: 89
-    :timestamp: 2012-11-28 11:17:36 +05:30
-  - :path: server
-    :cursor_offset: 60
-    :timestamp: 2012-12-18 14:51:02 +05:30
-  - :path: Rakefile
-    :cursor_offset: 306
-    :timestamp: 2012-12-18 15:43:12 +05:30
+    :cursor_offset: 1060
+    :timestamp: 2012-12-19 11:06:19 +05:30
 files_to_retain: 0

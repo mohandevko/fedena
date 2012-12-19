@@ -5,6 +5,3 @@ open_files:
   - config/database.yml
   - Gemfile
   - Gemfile.lock
-  - config/boot.rb
-  - server
-  - Rakefile
