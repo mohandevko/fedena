@@ -17,4 +17,4 @@ group :production do
   gem 'pg'
 end
 
-gem 'pg'
+#gem 'pg'
