@@ -11,4 +11,10 @@ gem 'remotipart', '~> 1.0'
 
 gem 'wkhtmltopdf-binary'
 
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
+
 gem 'pg'
