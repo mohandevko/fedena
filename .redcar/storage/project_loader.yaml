@@ -6,3 +6,5 @@ open_files:
   - Gemfile
   - Gemfile.lock
   - config/boot.rb
+  - server
+  - Rakefile
