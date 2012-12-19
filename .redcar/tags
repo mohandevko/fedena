@@ -1,4 +1,4 @@
-1355892902
+1355893289
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/mock_model_spec.rb	describe "#as_new_record" do
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/stub_model_spec.rb	describe "#as_new_record" do
 #delete	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb	describe "#delete" do
@@ -303,7 +303,6 @@ BlogCommentMailer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins
 BlogPost	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/translator/test/fixtures/app/models/blog_post.rb	class BlogPost 
 BlogPostsController	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/translator/test/fixtures/app/controllers/blog_posts_controller.rb	class BlogPostsController 
 BlogPostsHelper	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/translator/test/fixtures/app/helpers/blog_posts_helper.rb	module BlogPostsHelper
-Boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	  class Boot
 Boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	  class Boot
 Boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	  class Boot
 Boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	  class Boot
@@ -1005,7 +1004,6 @@ GET show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/spec/controllers/exam_g
 GET show	/home/mohan/dine-media/fedena-v2.3-bundle-linux/spec/controllers/exams_controller_spec.rb	describe "GET show" do
 GRADINGTYPES	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/course.rb	  GRADINGTYPES =
 GRADINGTYPES	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/models/batch.rb	  GRADINGTYPES =
-GemBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	  class GemBoot 
 GemBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	  class GemBoot 
 GemBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	  class GemBoot 
 GemBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	  class GemBoot 
@@ -1393,7 +1391,6 @@ RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/envir
 RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_GEM_VERSION	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_HOME	/home/mohan/dine-media/fedena-v2.3-bundle-linux/script/load_worker_env.rb	RAILS_HOME =
-RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	RAILS_ROOT =
 RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	RAILS_ROOT =
 RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	RAILS_ROOT =
 RAILS_ROOT	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	RAILS_ROOT =
@@ -1443,7 +1440,6 @@ Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/controller_example_group_spec.rb	  module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb	  module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/view_example_group_spec.rb	  module Rails
-Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	module Rails
@@ -1808,7 +1804,6 @@ ValidateAttachmentPresenceMatcher	/home/mohan/dine-media/fedena-v2.3-bundle-linu
 ValidateAttachmentPresenceMatcherTest	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/test/matchers/validate_attachment_presence_matcher_test.rb	class ValidateAttachmentPresenceMatcherTest 
 ValidateAttachmentSizeMatcher	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_size_matcher.rb	      class ValidateAttachmentSizeMatcher
 ValidateAttachmentSizeMatcherTest	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/test/matchers/validate_attachment_size_matcher_test.rb	class ValidateAttachmentSizeMatcherTest 
-VendorBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	  class VendorBoot 
 VendorBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	  class VendorBoot 
 VendorBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	  class VendorBoot 
 VendorBoot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	  class VendorBoot 
@@ -2193,11 +2188,9 @@ bit_bucket	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperc
 block	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/plugins/paste/editor_plugin_src.js	function block(e)
 block_unauthorised_entry	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/application_controller.rb	  def block_unauthorised_entry
 boolean_condition?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/named_scopes/column_conditions.rb	        def boolean_condition?(name)
-boot!	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def boot!
 boot!	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def boot!
 boot!	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def boot!
 boot!	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def boot!
-booted?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def booted?
 booted?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def booted?
 booted?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def booted?
 booted?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def booted?
@@ -3289,7 +3282,6 @@ g	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/pl
 g	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/jquery/jquery-ui.min.js	function g(n){var k,m;for(k in n){m=n[k];if(m==null||a.isFunction(m)||k in o||/scrollbar/.test(k)||!/color/i.test(k)&&isNaN(parseFloat(m)))delete n[k]}return n}function i(n,k){var m={_:0},p;for(p in k)if(n[p]!=k[p])m[p]=k[p];return m}function b(n,k,m,p){if(typeof n=="object")
 g	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/jquery/jquery-ui.min.js	function g(l){return{position:l.position,offset:l.offset}}var i=this,b=i.options,f=a(document)
 gap_marker	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/will_paginate/lib/will_paginate/view_helpers.rb	    attr_accessor :gap_marker
-gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	      def gem_version
 gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	      def gem_version
 gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	      def gem_version
 gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	      def gem_version
@@ -3902,8 +3894,6 @@ load_discount_batch	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controll
 load_discount_create_form	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/finance_controller.rb	  def load_discount_create_form
 load_fees_submission_batch	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/finance_controller.rb	  def load_fees_submission_batch
 load_found	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/will_paginate/lib/will_paginate/named_scope.rb	      def load_found
-load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def load_initializer
-load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def load_initializer
 load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def load_initializer
 load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def load_initializer
 load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def load_initializer
@@ -3912,12 +3902,10 @@ load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/
 load_initializer	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def load_initializer
 load_levels	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/exam_controller.rb	  def load_levels
 load_notifications	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/calendar_controller.rb	  def load_notifications
-load_rails_gem	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def load_rails_gem
 load_rails_gem	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def load_rails_gem
 load_rails_gem	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def load_rails_gem
 load_rails_gem	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def load_rails_gem
 load_ranking_levels	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/ranking_levels_controller.rb	  def load_ranking_levels
-load_rubygems	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	      def load_rubygems
 load_rubygems	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	      def load_rubygems
 load_rubygems	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	      def load_rubygems
 load_rubygems	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	      def load_rubygems
@@ -4242,7 +4230,6 @@ parseWindowOpen	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascrip
 parse_aspell_line	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/fckeditor/lib/fckeditor_spell_check.rb	  def self.parse_aspell_line(line)
 parse_basic_auth	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/wicked_pdf/lib/wicked_pdf.rb	    def parse_basic_auth(options)
 parse_credentials	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/storage/s3.rb	      def parse_credentials 
-parse_gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	      def parse_gem_version(text)
 parse_gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	      def parse_gem_version(text)
 parse_gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	      def parse_gem_version(text)
 parse_gem_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	      def parse_gem_version(text)
@@ -4309,7 +4296,6 @@ periodically_call_function	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendo
 periodically_call_to_remote_ofc_load	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/open_flash_chart/lib/open_flash_chart/ofc_ajax.rb	  def periodically_call_to_remote_ofc_load(div_name, url, options={})
 permalink	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/translator/test/fixtures/app/models/blog_post.rb	  def self.permalink(url)
 permission_denied	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/application_controller.rb	  def permission_denied
-pick_boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def pick_boot
 pick_boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def pick_boot
 pick_boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def pick_boot
 pick_boot	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def pick_boot
@@ -4321,11 +4307,9 @@ post_processing	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/p
 pre_load_objects	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/controllers/elective_groups_controller.rb	  def pre_load_objects
 predict	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/open_flash_chart/lib/open_flash_chart/linear_regression.rb	  def predict( x )
 preinit	/home/mohan/dine-media/fedena-v2.3-bundle-linux/public/javascripts/tiny_mce/plugins/advlink/js/advlink.js	function preinit()
-preinitialize	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def preinitialize
 preinitialize	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def preinitialize
 preinitialize	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def preinitialize
 preinitialize	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def preinitialize
-preinitializer_path	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def preinitializer_path
 preinitializer_path	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def preinitializer_path
 preinitializer_path	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def preinitializer_path
 preinitializer_path	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def preinitializer_path
@@ -4457,7 +4441,6 @@ re-renders the 'new' template	/home/mohan/dine-media/fedena-v2.3-bundle-linux/sp
 read	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/delayed_job/spec/delayed_method_spec.rb	  def read(story)
 read	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/delayed_job/spec/delayed_method_spec.rb	  def read(story)
 read_condition	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/search/conditions.rb	        def read_condition(name)
-read_environment_rb	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	        def read_environment_rb
 read_environment_rb	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	        def read_environment_rb
 read_environment_rb	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	        def read_environment_rb
 read_environment_rb	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	        def read_environment_rb
@@ -4700,7 +4683,6 @@ routing	/home/mohan/dine-media/fedena-v2.3-bundle-linux/spec/routing/exams_routi
 routing	/home/mohan/dine-media/fedena-v2.3-bundle-linux/spec/routing/elective_groups_routing_spec.rb	describe "routing" do
 routing	/home/mohan/dine-media/fedena-v2.3-bundle-linux/spec/routing/exam_groups_routing_spec.rb	describe "routing" do
 rtl?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/app/helpers/application_helper.rb	  def rtl?
-rubygems_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	      def rubygems_version
 rubygems_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	      def rubygems_version
 rubygems_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	      def rubygems_version
 rubygems_version	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	      def rubygems_version
@@ -4708,7 +4690,6 @@ run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/s
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/will_paginate/test/lib/activerecord_test_case.rb	  def run(*args)
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/command_line.rb	    def run
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip.rb	    def run 
-run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def run
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def run
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def run
 run	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def run
@@ -6261,7 +6242,6 @@ validates_attachment_presence	/home/mohan/dine-media/fedena-v2.3-bundle-linux/ve
 validates_attachment_size	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip.rb	    def validates_attachment_size 
 validates_attachment_thumbnails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip.rb	    def validates_attachment_thumbnails 
 value_with_modifier	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/named_scopes/column_conditions.rb	        def value_with_modifier(value, modifier)
-vendor_rails?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	    def vendor_rails?
 vendor_rails?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	    def vendor_rails?
 vendor_rails?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	    def vendor_rails?
 vendor_rails?	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	    def vendor_rails?
