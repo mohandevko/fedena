@@ -16,6 +16,8 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 
+require "declarative_authorization"
+
 class ApplicationController < ActionController::Base
   helper :all
   protect_from_forgery # :secret => '434571160a81b5595319c859d32060c1'
