@@ -1,4 +1,4 @@
-1355898449
+1356012050
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/mock_model_spec.rb	describe "#as_new_record" do
 #as_new_record	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/mocks/stub_model_spec.rb	describe "#as_new_record" do
 #delete	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb	describe "#delete" do
@@ -1446,8 +1446,8 @@ Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/rspec-rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/dbconsole/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/g/config/boot.rb	module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/console/config/boot.rb	module Rails
-Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	  module Rails
 Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/boot.rb	module Rails
+Rails	/home/mohan/dine-media/fedena-v2.3-bundle-linux/config/environment.rb	  module Rails
 Rails21	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/callback_compatability.rb	    module Rails21
 Rails3	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/paperclip/lib/paperclip/callback_compatability.rb	    module Rails3
 RailsHelpers	/home/mohan/dine-media/fedena-v2.3-bundle-linux/vendor/plugins/searchlogic/lib/searchlogic/rails_helpers.rb	  module RailsHelpers
