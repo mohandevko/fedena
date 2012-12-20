@@ -1,5 +1,5 @@
 Script started on Thursday 29 November 2012 10:43:39 AM IST
-]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ [H[2J]0;mohan@mohan-Inspiron-N5110: ~/dine-media/fedena-v2.3-bundle-linuxmohan@mohan-Inspiron-N5110:~/dine-media/fedena-v2.3-bundle-linux$ script/server
+require File.expand_path('../../config/boot', __FILE__)
 => Booting Mongrel
 => Rails 2.3.5 application starting on http://0.0.0.0:3000
 => Call with -d to detach
