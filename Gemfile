@@ -8,6 +8,7 @@ gem 'rake','0.8.7'
 gem 'rush','0.6.8'
 gem 'rdoc'
 gem 'remotipart', '~> 1.0'
+gem 'hoe', '2.10.0'
 
 gem 'wkhtmltopdf-binary'
 
