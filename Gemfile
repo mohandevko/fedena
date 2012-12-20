@@ -12,7 +12,7 @@ gem 'remotipart', '~> 1.0'
 gem 'wkhtmltopdf-binary'
 
 group :production do
-  gem 'test-unit'
+  gem 'test-unit', '1.2.3'
   gem 'pg'
 end
 
