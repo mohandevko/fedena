@@ -1,0 +1,4 @@
+config/database.yml
+.redcar
+tmp/*
+log/*.log

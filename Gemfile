@@ -8,11 +8,12 @@ gem 'rake','0.8.7'
 gem 'rush','0.6.8'
 gem 'rdoc'
 gem 'remotipart', '~> 1.0'
+gem 'hoe', '2.0.0'
 
 gem 'wkhtmltopdf-binary'
 
 group :production do
-  gem 'test-unit'
+  gem 'test-unit', '1.2.3'
   gem 'pg'
 end
 
